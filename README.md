@@ -1,3 +1,7 @@
-### While running this app, if you find error like "Could not find module '@angular-devkit/build-angular'" :
-Type this command : 
-npm install --save-dev @angular-devkit/build-angular
+download the zip and run 
+  npm install
+Then,start the json-server using the command 
+  json-server --watch data.json
+Now start the angular server using the command
+  ng serve
+Applictaion starts running on port 4200
